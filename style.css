@@ -37,13 +37,18 @@ body{
 
 .element-1{
     background-color: seagreen;
+
+    grid-column: 1/5;
 }
 .element-2{
     background-color: deeppink;
+    grid-column: 1/7;
 }
 .element-3{
     background-color: indigo;
+    grid-column: 1/7;
 }
 .element-4{
     background-color: royalblue;
+    grid-column: 5/7;
 }
