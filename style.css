@@ -39,16 +39,20 @@ body{
     background-color: seagreen;
 
     grid-column: 1/5;
+    grid-row: 1/2;
 }
 .element-2{
     background-color: deeppink;
     grid-column: 1/7;
+    grid-row: 2/3;
 }
 .element-3{
     background-color: indigo;
     grid-column: 1/7;
+    grid-row: 3/4;
 }
 .element-4{
     background-color: royalblue;
     grid-column: 5/7;
+    grid-row: 1/3;
 }
