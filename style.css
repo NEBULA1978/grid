@@ -16,11 +16,15 @@ body{
 
     display:grid;
     /* dividimos el espaciodel contenedor en tres columnas */
-    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr 1fr; */
     /* dividimos el espaciodel contenedor en seis columnas */
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; */
     /* lo mismo que arriba */
-    grid-template-columns: repeat(6,1fr);
+    display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        /* Aquí corrige las filas */
+    
 
 }
 
