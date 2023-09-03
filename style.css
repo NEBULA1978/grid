@@ -12,7 +12,16 @@ body{
     width: 90%;
     height: 400px;
     max-width: 500px;
-    outline: solid;
+    outline: 4px solid;
+
+    display:grid;
+    /* dividimos el espaciodel contenedor en tres columnas */
+    grid-template-columns: 1fr 1fr 1fr;
+    /* dividimos el espaciodel contenedor en seis columnas */
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    /* lo mismo que arriba */
+    grid-template-columns: repeat(6,1fr);
+
 }
 
 .element{
