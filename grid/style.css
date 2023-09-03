@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:tomato;
+}
+
+.about{
+    margin: 80px auto;
+    width: 900px;
+    height: 500px;
+}
+
+.about_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.about_gradient{
+    background-image: linear-gradient(to top, blue, 0%, red 100%);
+}
+
+.about_article{
+    background-color:#fff;
+    padding: 2.5em;
+    box-shadow: 0 0 10px -8px #0000054;
+}
+
+.about_title{
+    font-size: 2rem;
+    margin-bottom: 16px;
+}
+.abpout_paragraph{
+    line-height: 1.5;
+}
