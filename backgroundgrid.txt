@@ -1,3 +1,37 @@
+Para agregar un fondo de imagen a cada una de las cajas .element y asegurarte de que cada imagen de fondo esté contenida dentro de su caja, puedes utilizar la propiedad background-image en lugar de la etiqueta <img>. Aquí tienes el código HTML y CSS actualizado:
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de Divs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="element element-1">
+            <!-- Fondo de imagen para element-1 -->
+        </div>
+
+        <div class="element element-2">
+            <!-- Fondo de imagen para element-2 -->
+        </div>
+
+        <div class="element element-3">
+            <!-- Fondo de imagen para element-3 -->
+        </div>
+
+        <div class="element element-4">
+            <!-- Fondo de imagen para element-4 -->
+        </div>
+    </div>
+</body>
+</html>
+
+
+Y el código CSS actualizado:
+
 * {
     margin: 0;
     box-sizing: border-box;
@@ -68,3 +102,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+
+En este código, se utiliza la propiedad background-image para establecer una imagen de fondo en cada caja .element. Además, se configura background-size: cover; para asegurarse de que la imagen de fondo se ajuste y cubra completamente el contenido de la caja. background-repeat: no-repeat; evita que la imagen de fondo se repita. Con estos cambios, cada caja tendrá su propia imagen de fondo. Asegúrate de ajustar las rutas de las imágenes de fondo según corresponda.
